@@ -97,12 +97,14 @@ A storage account provides a unique namespace for your Azure Storage data that's
 When you create your storage account, you’ll start by picking the storage account type. The type of account determines the storage services and redundancy options and has an impact on the use cases.
 
 The Azure Storage platform includes the following data services:
+
 **Azure Blobs**: A massively scalable object store for text and binary data. Also includes support for big data analytics through Data Lake Storage Gen2.
 **Azure Files**: Managed file shares for cloud or on-premises deployments.
 **Azure Queues**: A messaging store for reliable messaging between application components.
 **Azure Disks**: Block-level storage volumes for Azure VMs.
 **Azure Tables**: NoSQL table option for structured, non-relational data.
-*Benefits of Azure Storage
+
+Benefits of Azure Storage
 Azure Storage services offer the following benefits for application developers and IT professionals:
 
 Durable and highly available. Redundancy ensures that your data is safe if transient hardware failures occur. You can also opt to replicate data across data centers or geographical regions for additional protection from local catastrophes or natural disasters. Data replicated in this way remains highly available if an unexpected outage occurs.
@@ -114,6 +116,7 @@ Accessible. Data in Azure Storage is accessible from anywhere in the world over 
 **Azure Blobs**
 Azure Blob storage is an object storage solution for the cloud. It can store massive amounts of data, such as text or binary data. Azure Blob storage is unstructured, meaning that there are no restrictions on the kinds of data it can hold. Blob storage can manage thousands of simultaneous uploads, massive amounts of video data, constantly growing log files, and can be reached from anywhere with an internet connection.
 Blobs aren't limited to common file formats. A blob could contain gigabytes of binary data streamed from a scientific instrument, an encrypted message for another application, or data in a custom format for an app you're developing. One advantage of blob storage over disk storage is that it doesn't require developers to think about or manage disks. Data is uploaded as blobs, and Azure takes care of the physical storage needs.
+
 Blob storage is ideal for:
 Serving images or documents directly to a browser.
 Storing files for distributed access.
