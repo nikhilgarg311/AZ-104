@@ -17,3 +17,4 @@ With an on-premises datacenter, you’re responsible for everything. With cloud 
 
 **SaaS**
 
+![Shared Responsibilty Model]([https://example.com/nature.jpg](https://learn.microsoft.com/en-us/training/wwl-azure/describe-cloud-compute/media/shared-responsibility-b3829bfe.svg) "Shared Responsibilty Model")
